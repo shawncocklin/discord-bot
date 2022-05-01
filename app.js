@@ -17,6 +17,7 @@ client.on('ready', () => {
 client.on('messageCreate', msg => {
   if(msg.content === `${BOT_PREFIX}${GREEN_ME_CMD}`) {
     greenUserText(msg.member)
+    
   }
 })
 
